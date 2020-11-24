@@ -4,7 +4,7 @@ import React from "react";
 function NavBar() {
     return (  
     <div>
-<nav className="navbar is-transparent">
+<nav id="nav-id" className="navbar is-transparent">
   <div className="navbar-brand">
     <a className="navbar-item" href="https://bulma.io">
       <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
@@ -34,7 +34,7 @@ function NavBar() {
       </div>
     </div>
 
-    <div className="navbar-end">
+    <div id="nav-logins" className="navbar-end">
       <div className="navbar-item">
         <div className="field is-grouped">
           <p className="control">
@@ -42,7 +42,7 @@ function NavBar() {
               <span className="icon">
                 <i className="fab fa-twitter"></i>
               </span>
-              <span>
+              <span className="spans">
                 Login
               </span>
             </a>
@@ -52,7 +52,7 @@ function NavBar() {
               <span className="icon">
                 <i className="fas fa-download"></i>
               </span>
-              <span>Signup</span>
+              <span className="spans" >Signup</span>
             </a>
           </p>
         </div>

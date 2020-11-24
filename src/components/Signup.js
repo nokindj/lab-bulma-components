@@ -3,6 +3,7 @@ import 'bulma/css/bulma.css';
 import NavBar from "./navbar/NavBar"
 import FormField from "./formfield/FormField"
 import CoolButton from "./button/CoolButton"
+import './formfield/FormField.css';
 
 
 function Signup() {

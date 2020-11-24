@@ -3,7 +3,7 @@ import React from "react";
 function CoolButton(props) {
     return (
         <div>
-        <button className={props.className}>{props.name}</button>
+        <button id="cool-button" className={props.className}>{props.name}</button>
      
     </div>
     )
